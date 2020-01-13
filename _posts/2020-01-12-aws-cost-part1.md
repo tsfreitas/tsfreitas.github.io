@@ -101,6 +101,14 @@ Assim os recursos compartilhados sempre ficam com as tags:
 
 Recursos compartilhados costumam ser desprezados durante o trabalho de redução de gastos, mas eles devem ser monitorados e contabilizados nos trabalhos. Uma melhoria em um sistema pode diminuir o consumo de rede, reduzindo o valor de recursos compartilhados. Sempre é importante ter um olho atento a esses recursos.
 
+## Recursos desconhecidos
+
+É possível que certos recursos existentes não serem tão conhecidos. Aquele bucket que guarda imagens pertence a qual Produto? Esse servidor de banco de dados é usado por qual Sistema?
+
+Caso perguntas assim apareçam durante o processo de tagueamento, uma alternativa é marcar essas recursos com o valor *DESCONHECIDO*. 
+
+Assim o bucket de imagem teria a tag *Produto: DESCONHECIDO*; o servidor de banco de dados teria a tag *Sistema: DESCONHECIDO*.  Essa marcação ajuda a marcar recursos que devem ser vistos posteriormente e não deixamos eles desmarcados.
+
 ## Case sensitive
 
 Os nomes e valores das tags diferenciam letras maiusculas de minusculas, assim *web-server* e *WEB-SERVER* são vistos como valores diferentes, dificultado as análises.
@@ -120,6 +128,17 @@ Mais detalhes podem ser vistos na [documentação][tag_allocation].
 
 ## Edição de tag em massa
 
+Um problema da marcação de recursos e como saber quais recursos já tem tags, quais não tem e como fazer o tagueamento de forma rápida. Para isso a AWS disponibiliza o [Tag Editor][tag_editor].
+
+
+Essa ferramenta permite ver todos os recursos e suas tags. O principal ponto é o filtro de tags, nele é possível verificar quais recursos não possuem a tag especifica, ou que a tag esteja vazia.
+
+![Tag Editor][tag_editor_image]
+
+Essa ferramenta não mostra apenas os recursos e suas tags, também é possível fazer a edição em massa desses recursos. Com essa feature é possível começar rapidamente o tagueamento de recursos e já ter uma ideia de como está a divisão dos gastos.
+
+![Tag Editor Multiple Resources][tag_editor_multiple_resources_image]
+
 ## Analisando custo com tags
 
 
@@ -128,8 +147,11 @@ Mais detalhes podem ser vistos na [documentação][tag_allocation].
 [cost_explorer]: https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
 [aws_youtube]: https://youtu.be/qd84dbS7L5M
 [tag_allocation]: https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/activating-tags.html
+[tag_editor]: https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html
 
 
 [cost_explorer_image]:  /assets/aws-cost-part1/cost_explorer.png
 [cost_by_service]:      /assets/aws-cost-part1/cost_by_service.png
 [tag_allocation_image]: /assets/aws-cost-part1/tag_allocation.png
+[tag_editor_image]: /assets/aws-cost-part1/tag_editor.png
+[tag_editor_multiple_resources_image]: /assets/aws-cost-part1/tag_editor_multiple_resources.png
