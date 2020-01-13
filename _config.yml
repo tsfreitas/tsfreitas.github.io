@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
 
 timezone: America/Sao_Paulo
+show_downloads: false
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
