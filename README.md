@@ -1,5 +1,5 @@
 # Blog de Thiago Freitas
 
 
-Blog criado com Jekyll e baseado no template [Derryk](https://jekyll-themes.com/derrick/)
+Blog criado com Jekyll e baseado no template [Derrick](https://jekyll-themes.com/derrick/)
 
