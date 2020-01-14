@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Como monitorar e otimizar o custo na AWS - Parte 1"
 categories: 
   - devops
@@ -9,6 +9,8 @@ tags:
 ---
 
 > "O nosso custo na AWS está muito alto. O que podemos fazer para diminuir ele em 30% ?"
+
+***
 
 Essa é uma frase bem comum quando uma empresa migra de um datacenter clássico para a AWS sem preparar os seus sistemas e processo para trabalhar com a nuvem. Mas como reduzir esse custo e manter uma operação saudável na nuvem?
 
@@ -34,9 +36,12 @@ Com esse recurso conseguimos dividir os custo por serviços, ações na API, reg
 Então os nossos maiores oferensores são os servidores e recursos associados a eles (disco, snapshots, etc). Fácil!
 Bem, infelizmente não. Na maioria das vezes esses recursos terão os maiores valores na conta.
 
+
 > ### Proporção de gastos entre serviços
 >
 > Em uma operação recém migrada para a AWS é provavel que os sistemas e bancos de dados fiquem em servidores EC2. Uma parte da mudança de pensamento é transferir alguns recursos para os serviços gerenciados.
+
+***
 
 ## Tags, tags e mais tags
 
@@ -50,6 +55,8 @@ Mas que tags colocar? Bem não há um número exato mas deve ser o suficiente pa
 > Não existe um número certo de tags para identificar cada recurso, então a tentação é taguar tudo: data de criação, responsável, identificação do ticket de criação do recurso, signo chinês do responsável
 >
 > Muitas tags são dificeis de manter, podem com o tempo ter informações desatualizadas e se tornarem mais um ponto de burocracia desnecessária.
+
+***
 
 Já trabalhei tagueando recursos em algumas oportunidades e achei o número mágico de 3 tags:
  - Produto
@@ -76,6 +83,8 @@ A maior parte dos recursos criados para a operação, são criados para dar supo
 
 > ### A tag Name
 > Uma boa prática é todos os recursos possuírem a tag Name, essa tag mostra o nome do recurso e em muitas telas da AWS, são lidas por padrão. Se você ainda não utiliza essa tag, recomendo que comece a utilizar, ela facilitará muito sua vida.
+
+***
 
 ## Recursos compartilhados
 
@@ -140,6 +149,7 @@ Essa ferramenta não mostra apenas os recursos e suas tags, também é possível
 ![Tag Editor Multiple Resources][tag_editor_multiple_resources_image]
 
 ## Analisando custo com tags
+
 
 
 
