@@ -58,7 +58,9 @@ Mas que tags colocar? Bem não há um número exato mas deve ser o suficiente pa
 
 ***
 
-Já trabalhei tagueando recursos em algumas oportunidades e achei o número mágico de 3 tags:
+Um ponto importante é que as tags sejam o mais independente possível de mudanças organizacionais. Então colocar o nome do Gerente, o nome do Time ou qualquer outra informação que possa ser alterada frequentemente, não é uma boa ideia.
+
+Já trabalhei tagueando recursos em algumas oportunidades e achei 3 tags mágicas:
  - Produto
  - Sistema
  - Ambiente
@@ -150,8 +152,25 @@ Essa ferramenta não mostra apenas os recursos e suas tags, também é possível
 
 ## Analisando custo com tags
 
+Tendo as tags configuradas é possível entender como o custo está divido.
 
+![Recursos Tagueados][tagged_resources_image]
 
+Então, diminuindo o custo do MAIN_DB ou do WEB_APP conseguimos reduzir a conta no final do mês. Bem, não é tão fácil assim.
+
+Toda arquitetura possui gargálos de custos: recursos que são peças mais caras no processo mas são necessárias e, por mais que possa parecer óbvio atacar essas partes, olhar os sistemas periféricos pode ser a alternativa mais rápida para diminuir a conta.
+
+No exemplo acima, olhar se é possível melhorar o MICROSERVICE_X ou o TEST_NVME pode ser mais rápido do que ver como melhorar o custo do MAIN_DB.
+
+> ### As partes ocultas do custo
+>
+> Ao olhar o custo de um sistema é comum focar no servidor, sendo tentando trocar a máquina, sendo tentando desligar ela durante alguns períodos. Esse ponto é importante mas vale olhar outros tipos de recursos, como disco, snapshots, rede, elastic ip e balanceadores de carga. 
+
+## Conclusão
+
+Ao taguear os recursos é possível ter uma nova visão da divisão de custo e de utilização da arquitetura. Essa é a base para um plano de redução e evolução da arquitetura para se adaptar à nuvem.
+
+As tags também são importantes para ligar os recursos de infraestrutura com o negócio em si. Em muitos lugares o custo do taxi para visitar clientes é mais contabilizado do que o custo para rodar os sistema que o  cliente usa.
 
 
 [cost_explorer]: https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
@@ -165,3 +184,4 @@ Essa ferramenta não mostra apenas os recursos e suas tags, também é possível
 [tag_allocation_image]: /assets/aws-cost-part1/tag_allocation.png
 [tag_editor_image]: /assets/aws-cost-part1/tag_editor.png
 [tag_editor_multiple_resources_image]: /assets/aws-cost-part1/tag_editor_multiple_resources.png
+[tagged_resources_image]: /assets/aws-cost-part1/tagged_resources.png
