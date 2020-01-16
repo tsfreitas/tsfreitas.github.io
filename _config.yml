@@ -1,1 +1,58 @@
-theme: jekyll-theme-architect
+title: Arquitetura de Software
+description: >- 
+  Arquitetura de Software - A rotina, pensamentos e ideias da vida de um arquiteto de soluções
+  apaixonado por tecnologia
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tsfreitas.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+timezone: America/Sao_Paulo
+
+# Google Analytics
+google-analytics: UA-156161085-1
+
+#Author
+author:
+  name: Thiago Freitas
+  image: /assets/img/home.png
+  job: Arquiteto de Software
+  bio: Arquiteto e engenheiro de software apaixonado pelo mundo do desenvolvimento
+
+# Contact links
+contact:
+  - name: Github
+    link: https://github.com/tsfreitas
+  - name: Linkedin
+    link: https://www.linkedin.com/in/tsfreitas/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
