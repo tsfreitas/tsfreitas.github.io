@@ -44,45 +44,49 @@ Eu acredito que o termo fullstack pode ser resumido em:
 
 Hoje trabalho com alguns cientistas de dados que além da modelagem e análises (e outras coisas que para mim são mágica ainda), fazem a captura dos dados, seu tratamento, o ETL, a conversa com o cliente, mas não fazem o front end. Então esses profissionais não seriam fullStack? Para mim eles são muito fullstack.
 
------------
-# FALTA REVISAR
-
-
-Conheço muitos devs backend que fazem API, processamento em tempo real, trabalham com terabytes de dados, criam protocolos de comunicação próprios mas fazem um html que dói a vista e não por que eles são ruins, mas por que não é necessário.
+Conheço muitos devs backend que fazem API, processamento em tempo real, trabalham com terabytes de dados, se duvidar até criam protocolos de comunicação próprios mas fazem um HTML que dói a vista e não por que eles são ruins, mas por que não é necessário.
 
 E claro conheço algumas pessoas que fazem o frontend com o backend e entregam sites completos para seus clientes. Os verdadeiros fullstack, segundo a definição.
 
-Todos esses perfis conhecem várias tecnologias e as usam para resolver os problemas dos clientes, que para mim é a essência do fullstack.
+Todos esses perfis conhecem várias tecnologias e as usam para resolver os problemas dos clientes, o que para mim é a essência do fullstack.
 
 ## A procura do termo perfeito
 
 Mas será que o termo fullstack não quer dizer realmente um desenvolvedor que consegue fazer o front e o back, muito provavelmente em javascript e usando [MERN][mern] stack e talvez trabalhe em agência?
 
-Será que não falta um termo para identificar a pessoa que desenvolve bem pra c**** ?  Esse desenvolvedor unicórnio/jedi/ninja que todos queremos ser ?
+Será que não falta um termo para identificar a pessoa que desenvolve bem pra _c****_ ?  Esse desenvolvedor _unicórnio/jedi/ninja_ que todos queremos ser?
 
-Assim poderíamos falar que conhecemos/queremos ser aquele cientista de dados unicórnio/jedi/ninja.
+Assim poderíamos falar que conhecemos/queremos ser aquele cientista de dados _unicórnio/jedi/ninja_.
 
-Que queremos trabalhar com aquele backend unicórnio/jedi/ninja.
+Que queremos trabalhar com aquele backend _unicórnio/jedi/ninja_.
 
-E que aquela desenvolvedora fullstack unicórnio/jedi/ninja é um exemplo a ser seguido (estou falando de você Paulinha).
+E que aquela desenvolvedora fullstack _unicórnio/jedi/ninja_ é um exemplo a ser seguido (estou falando de você Paulinha).
 
 Há uma [discussão muito boa no github][discussao] que fala sobre essa diferença.
 
-Nela existe um post, na minha opinião muito assertivo que fala que você pode ser fullstack na empresa X que usa algumas tecnologias mas na empresa Y que utiliza outras tecnologias você não ser mais o fullstack que aquela empresa precisa.
+Nela existe um post, na minha opinião muito assertivo, que fala que você pode ser fullstack na empresa X que usa algumas tecnologias mas na empresa Y que utiliza outras tecnologias você não é mais o fullstack que aquela empresa precisa.
 
 Talvez esse seja o principal ponto: o fullstack que a empresa precisa.
 
-No último ano minha carreira teve várias mudanças e acabei caindo numa empresa de Health Tech e tive que mexer com servidores Windows e sql server, bem,  nem de perto sou o fullstack que essa empresa imaginava.
+Cada empresa tem uma história, cada empresa tem seu legado e precisa de profissionais muito bons que dêem suporte ao crescimento ou manutenção de seu negócio. Principalmente se ela estiver passando por transformações ou modernizações.
 
-Mas a minha visão de outros mercados e conhecimento de outras tecnologias oxigenaram pelo menos um pouco a área e também aprendi um pouco sobre o tal sql server ( o Windows server não, a vida é muito curta pra isso).
+Essa empresa precisará de profissionais _unicornio/jedi/ninja_ para guiar as mudanças para novos pensamentos. Se ela procurar por fullstacks conforme a definição padrão talvez ela ache algum profissional que não esteja pronto ou saiba como fazer essa mudança.
+
+No último ano minha carreira teve várias mudanças e acabei caindo numa empresa de Health Tech e tive que mexer com servidores Windows e SQL Server, bem, nem de perto sou o fullstack que essa empresa imaginava.
+
+Mas a minha visão de outros mercados e conhecimento de outras tecnologias oxigenaram pelo menos um pouco a área e também aprendi um pouco sobre o tal SQL Server (o Windows Server não, a vida é muito curta pra isso). Ajudando a empresa a começar a trilhar o caminho de transformação que ela deseja.
 
 ## O risco da corrida pelo fullstack 
 
 No começo do post falei sobre a discussão sobre o fullstack, um dos tópicos era o que um dev recém formado precisa estudar pra ser fullstack.
 
-Um dev deve conhecer várias tecnologias, mas mais importante é saber usar essas várias tecnologias.
+Um dev precisa conhecer várias tecnologias, mas mais importante é saber usar essas várias tecnologias.
 
-Quem nunca viu um código que você escreveu a pelo menos 6 meses e notou que você poderia ter feito muita coisa melhor hoje? Quem nunca ficou bravo com o seu eu do passado por escrever um código ruim?
+Você já deve ter visto um código antigo e notado que hoje você reescreveria o código bem melhor. Quem nunca ficou bravo com o seu eu do passado por escrever um código ruim?
+
+------------
+# REVISAR
+----------
 
 A medida que ganhamos experiência, sabemos usar melhor as ferramentas que temos, conhecemos mais sobre o que é programação, independente da linguagem.
 
