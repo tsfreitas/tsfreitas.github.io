@@ -84,29 +84,23 @@ Um dev precisa conhecer várias tecnologias, mas mais importante é saber usar e
 
 Você já deve ter visto um código antigo e notado que hoje você reescreveria o código bem melhor. Quem nunca ficou bravo com o seu eu do passado por escrever um código ruim?
 
-------------
-# REVISAR
-----------
-
 A medida que ganhamos experiência, sabemos usar melhor as ferramentas que temos, conhecemos mais sobre o que é programação, independente da linguagem.
 
 Em algum momento a gente vê na prática o problema de um loop infinito, de um update sem where, de um código bugado em produção. E aprendemos com isso.
 
 Esses conhecimentos que formam um verdadeiro profissional fullstack e pra isso é preciso de tempo.
 
-É claro que devemos conhecer várias tecnologias até porque pra quem só saber usar martelo, qualquer problema é prego.
+É claro que devemos conhecer várias tecnologias até por que pra quem só saber usar martelo, qualquer problema é prego, mas também não adiantar saber essas tecnologias e não saber direito como e onde usá-las, é como comprar um kit de alicates sem saber onde usar cada um. 
 
-Mas também não adiantar estudar várias tecnologias sem saber direito como e onde usá-las, é como comprar um kit de alicates sem saber onde usar cada um.
+A ânsia por ser fullstack pode fazer o profissional aprender muitas tecnologias mas não se aprofundar em nenhuma.
 
 ![alicates][alicates]
-
-A ânsia por ser fullstack faz com que o profissional aprenda várias ferramentas mas não se aprofunde em nenhuma. 
-
-Quantas vezes já encontrei exemplos de código explicando um novo framework ou lib js (por sinal, desde que você começou a ler esse post outra lib js já deve ter nascido) ou como fazer uma API serverless em Go e o código era extremamente raso, com uma estrutura confusa, repetição de código, com lógica confusa e nada disso é culpa da linguagem escolhida, mas sim da prioridade em conhecer as ferramentas novas sem ter a profundidade de como escrever um bom código.
+ 
+Quantas vezes já encontrei exemplos de código explicando um novo framework ou lib JS (por sinal, desde que você começou a ler esse post outra lib JS já deve ter nascido) ou como fazer uma API serverless em Go e o código era extremamente raso, com uma estrutura confusa, repetição de código, com lógica estranha e nada disso é culpa da linguagem escolhida, mas sim da prioridade em conhecer as ferramentas novas sem ter a profundidade de como escrever um bom código.
 
 ## Conclusão
 
-No final da discussão, meu ponto é que o profissional deve focar em ser  um excelente desenvolvedor, o fullstack vai vir naturalmente, com os desafios do dia-a-dia a pessoa vai ter contato com outras linguagens, com infra, com banco e principalmente com negócio. 
+No final da discussão, meu ponto é que o profissional deve focar em ser  um excelente desenvolvedor, ser f***, o fullstack vai vir naturalmente durante o percurso. Com os desafios do dia-a-dia a pessoa vai ter contato com outras linguagens, com infra, com banco e principalmente com negócio, amadurecendo e tendo mais valor para o mercado.
 
 Caso apareça uma linguagem ou ferramenta nova que se queira aprender, aprenda-a e descubra como colocar as boas práticas de software, até porque dificilmente alguém vai te contratar só porque vc sabe fazer um Hello World em Rust.
 
