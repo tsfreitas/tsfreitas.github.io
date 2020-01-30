@@ -30,7 +30,7 @@ E mais alguns que adicionam:
 
 ![fullstack][fullstack]
 
-E em muitos lugares vi finalizando que esse profissional pode ganhar cerca de R$ 4.000,00 ou tendo links de cursos de stacks de programação para você ser fullstack.
+E em muitos lugares vi finalizando que esse profissional pode ganhar cerca de R$ 4.000,00 ou tendo links de cursos de stacks de programação para se tornar fullstack.
 
 Ou seja, fullstack virou um termo muito bom para contratar uma pessoa com a função de um time inteiro de desenvolvimento e pagando pouco para ela.
 
@@ -42,7 +42,7 @@ Eu acredito que o termo fullstack pode ser resumido em:
 
 > _“Um profissional que consegue trabalhar com uma gama de tecnologias para resolver um problema”_
 
-Hoje trabalho com alguns cientistas de dados que além da modelagem e análises (e outras coisas que para mim são mágica ainda), fazem a captura dos dados, seu tratamento, o ETL, a conversa com o cliente, mas não fazem o front end. Então esses profissionais não seriam fullStack? Para mim eles são muito fullstack.
+Hoje trabalho com alguns cientistas de dados que além da modelagem e análises (e outras coisas que para mim são mágica ainda), fazem a captura dos dados, seu tratamento, o ETL, a conversa com o cliente, mas não fazem o front end. Então esses profissionais não seriam fullstack? Para mim eles são muito fullstack.
 
 Conheço muitos devs backend que fazem API, processamento em tempo real, trabalham com terabytes de dados, se duvidar até criam protocolos de comunicação próprios mas fazem um HTML que dói a vista e não por que eles são ruins, mas por que não é necessário.
 
@@ -102,7 +102,7 @@ Quantas vezes já encontrei exemplos de código explicando um novo framework ou 
 
 No final da discussão, meu ponto é que o profissional deve focar em ser  um excelente desenvolvedor, ser f***, o fullstack vai vir naturalmente durante o percurso. Com os desafios do dia-a-dia a pessoa vai ter contato com outras linguagens, com infra, com banco e principalmente com negócio, amadurecendo e tendo mais valor para o mercado.
 
-Caso apareça uma linguagem ou ferramenta nova que se queira aprender, aprenda-a e descubra como colocar as boas práticas de software, até porque dificilmente alguém vai te contratar só porque vc sabe fazer um Hello World em Rust.
+Caso apareça uma linguagem ou ferramenta nova que se queira aprender, aprenda-a e descubra como colocar as boas práticas de software, até porque dificilmente alguém vai te contratar só porque você sabe fazer um Hello World em Rust.
 
 
 
